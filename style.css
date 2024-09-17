@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60vw;
+    height: 40vw;
+    margin-top: 4vw;
+    border: 1.2vw solid gray;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.division {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.sub-division{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+.more-division {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.sub-division-row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+.BOX1,.BOX5,.BOX6,.BOX7,.BOX12,.BOX13,.BOX14,
+.BOX8,.BOX9,.BOX10,.BOX11,.BOX16,.BOX17,.BOX15,
+.BOX2,.BOX3,.BOX4 {
+    height: 100%;
+    width: 100%;
+}
+
+.BOX18 {
+    height: 200%;
+    width: 100%;
+}
+
+.BOX19,.BOX23,.BOX24 {
+    height: 75%;
+    width: 100%;
+}
+
+.BOX20,.BOX21,.BOX22 {
+    height: 125%;
+    width: 100%;
+}
+
+.BOX1,.BOX7 {
+    background: orangered;
+}
+.BOX2 {
+    background: slateblue;
+}
+
+.BOX3,.BOX15,.BOX19 {
+    background: orange;
+}
+
+.BOX4 {
+    background: hotpink;
+}
+
+.BOX5 {
+    background: cyan;
+}
+
+.BOX6 {
+    background: darkgreen;
+}
+
+.BOX8,.BOX10,.BOX17,.BOX22,.BOX24 {
+    background: black;
+}
+
+.BOX9,.BOX11,.BOX16,.BOX23 {
+    background: deepskyblue;
+}
+
+.BOX12,.BOX14,.BOX20 {
+    background: darkmagenta;
+}
+
+.BOX13,.BOX18 {
+    background:navy ;
+}
+
+.BOX21 {
+    background: mediumseagreen;
+}
+
+.BOX1,.BOX2,.BOX3 {
+    font-size: x-large;
+}
